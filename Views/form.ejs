@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+        <p>
+            <label for="">
+                Név<br>
+                <input type="text" name="animalName" id="">
+                <%= errors.animalName %>
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Életkor<br>
+                <input type="number" name="animalAge" id="">
+                <%= errors.animalAge %>
+            </label>
+        </p>
+        <p>
+            <label for="">
+                Állat Típus<br>
+                <select name="animalType">
+                  <option value="kutya">Kutya</option>
+                  <option value="macska">Macska</option>
+                  <option value="madar">Madár</option>
+              </select>
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="OK" name="" id="">
+        </p>
+    </form>
+  
+</body>
+</html>
